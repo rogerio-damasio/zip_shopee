@@ -30,7 +30,7 @@ $("#salvar").click(function (){
 
 //------------------------------------------------//
 
-//Puxando o ID, Nome e E-amil
+//Puxando o ID, Nome, E-mail e telefone
 ref.on("value", dados_tabela => {
     $("#lista").empty();
 
