@@ -36,10 +36,15 @@
     </nav>
 
     <div class="container mt-4">
-        <h3>Clientes</h3>
+        <h3>Vendedores</h3>
         <input id="nome" class="form-control mb-2" placeholder="Nome" type="text">
-        <input id="email" class="form-control mb-2" placeholder="Email" type="email">
-          <input id="telefone" class="form-control mb-2" placeholder="Telefone" type="number">
+        <input id="salario" class="form-control mb-2" placeholder="Salario" type="number">
+        <select class="form-select mb-2" aria-label="Selecione o Cargo" id="cargo">
+        <option selected disabled value="nada">Selecione o Cargo</option>
+        <option value="SP">TI</option>
+        <option value="RJ">Tristeza e Insegurança</option>
+        <option value="MG">Tecnologia da Informação</option>
+        </select>
         <button id="salvar" class="btn btn-primary">Salvar</button>
         <button id="cancelar" class="btn btn-secondary">Cancelar</button>
         <small id="status" class="text-muted"></small>
