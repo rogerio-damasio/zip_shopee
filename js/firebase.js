@@ -1,12 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBfyYcYP-mcLbWVEk3iX9iAT9xH-sRw5jw",
-  authDomain: "dsjquery-b5fec.firebaseapp.com",
-  databaseURL: "https://dsjquery-b5fec-default-rtdb.firebaseio.com",
-  projectId: "dsjquery-b5fec",
-  storageBucket: "dsjquery-b5fec.firebasestorage.app",
-  messagingSenderId: "1023731158081",
-  appId: "1:1023731158081:web:bccab661af4b3466ce4ac0",
-  measurementId: "G-3G93N6K0EH"
+  apiKey: "AIzaSyDsGqETiEXvlkj_a9q9Vt4Kd3Du0Rgr2r4",
+  authDomain: "zipshopjquery.firebaseapp.com",
+  projectId: "zipshopjquery",
+  storageBucket: "zipshopjquery.firebasestorage.app",
+  messagingSenderId: "214303750193",
+  appId: "1:214303750193:web:dd3cb899608c0259dfbd10",
+  measurementId: "G-QB9PD0ZL4B"
 };
 
 // Initialize Firebase
