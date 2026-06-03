@@ -8,7 +8,7 @@ $("#cancelar").hide();
 $("#salvar").click(function (){
     let nome = $("#nome").val().toUpperCase();
     let email = $("#email").val().toLowerCase();
-    let telefone = $("#telefone").val().toLowerCase();
+    let telefone = $("#telefone").val();
 
     if(nome === "" || email === "" || telefone === ""){
         alert('Preencha todos os campos');
@@ -62,7 +62,7 @@ ref.on("value", dados_tabela => {
                     </button>
                 </td>
                 <td>
-                    <button class="btn btn-warning btn-sm" onclick="editar('${id}', '${reg.nome}', '${reg.email}' , '${reg.email}')">
+                    <button class="btn btn-warning btn-sm" onclick="editar('${id}', '${reg.nome}', '${reg.email}' , '${reg.telefone}')">
                         <i class="bi bi-pencil"></i>
                     </button>
                 </td>
