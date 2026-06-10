@@ -55,7 +55,7 @@ ref.on("value", dados_tabela => {
                 <td>${id}</td>
                 <td>${reg.nome}</td>
                 <td>${reg.email}</td>
-                 <td>${reg.telelfone}</td>
+                <td>${reg.telefone}</td>
                 <td>
                     <button class="btn btn-danger btn-sm" onclick="excluir('${id}')">
                         <i class="bi bi-trash"></i>
@@ -82,7 +82,7 @@ function limpar(){
 }
 
 //Função Editar
-function editar(id, nome, email){
+function editar(id, nome, email, telefone){
     $("#nome").val(nome);
     $("#email").val(email);
     $("#telefone").val(telefone);
